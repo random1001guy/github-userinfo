@@ -4,4 +4,9 @@ This simple command line tool written using TypeScript uses the Github Users API
 
 ## How to Use
 npm and TypeScript compiler (tsc) should be installed.
-Run using `npm start`
+
+Install dependencies - 
+`$ npm install`
+
+Run using -
+`$ npm start`
