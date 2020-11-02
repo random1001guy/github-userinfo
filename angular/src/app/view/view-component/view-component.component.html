@@ -1,0 +1,10 @@
+Username : <input type="text" [(ngModel)]="username">
+
+<button (click)="getApiResponse()">Search on Github</button>
+
+<div *ngIf="response">
+    <p>Login : {{response.login}}</p>    
+    <p>Followers : {{response.followers}}</p>    
+    <p>Following : {{response.following}}</p>
+    <p>Public Repos : {{response.public_repos}}</p>        
+</div>
